@@ -4,7 +4,7 @@
             <?php if(isLoggedIn()) { ?>
                 Bienvenid@
             <?php }else{ ?>
-                No haz iniciado Sesion
+                No haz iniciado Sesion 2
             <?php } ?>
         </div>
         <ul class="body-menu">
