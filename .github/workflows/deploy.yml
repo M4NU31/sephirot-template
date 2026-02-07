@@ -14,7 +14,7 @@ jobs:
       - name: Deploy to FTP
         uses: SamKirkland/FTP-Deploy-Action@v4
         with:
-          server: ftp.tuhosting.com
+          server: ftp.sephirot.games
           username: admin@sephirot.games
           password: M@nuel4503479
           server-dir: /public_html/templates/
