@@ -17,7 +17,7 @@ jobs:
           server: ftp.tuhosting.com
           username: admin@sephirot.games
           password: M@nuel4503479
-          server-dir: ./
+          server-dir: /public_html/templates/
           local-dir: ./
           exclude: |
             **/.git*
