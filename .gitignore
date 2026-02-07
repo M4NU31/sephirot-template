@@ -1,0 +1,19 @@
+# Build / compiled files
+compiled/
+
+# Node dependencies
+node_modules/
+
+# Source files (dev only)
+src/
+
+# Gulp config
+gulpfile.js
+
+# Old / backup files
+index-old.php
+index-old
+
+# Package managers
+package.json
+package-lock.json
