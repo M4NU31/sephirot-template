@@ -12,12 +12,12 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Deploy to FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ftp.sephirot.games
-          username: admin@sephirot.games
-          password: M@nuel4503479
-          server-dir: /public_html/templates/
+          server: ftp.tuhosting.com
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASS }}
+          server-dir: /public_html/
           local-dir: ./
           exclude: |
             **/.git*
