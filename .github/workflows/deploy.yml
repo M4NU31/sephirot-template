@@ -1,0 +1,24 @@
+name: Deploy
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Deploy to FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4
+        with:
+          server: ftp.tuhosting.com
+          username: admin@sephirot.games
+          password: M@nuel4503479
+          server-dir: ./
+          local-dir: ./
+          exclude: |
+            **/.git*
+            **/.github/**
