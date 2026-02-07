@@ -17,7 +17,7 @@ jobs:
           server: ftp.sephirot.games
           username: admin@sephirot.games
           password: M@nuel4503479
-          server-dir: /public_html/
+          server-dir: ./
           local-dir: ./
           exclude: |
             **/.git*
