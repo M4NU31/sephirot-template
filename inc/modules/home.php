@@ -32,20 +32,6 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="slider-item">
-                            <div class="slider-item-inner">
-                                <div class="slider-media">
-                                    <img src="<?php echo __PATH_TEMPLATE_IMG__; ?>slider/alchemist.jpg" alt="Nuevo Personaje, Alchemist">
-                                </div>
-                                <div class="slider-content">
-                                    <div class="heading-wrapper">
-                                        <h5 class="heading-element">
-                                            Prueba a la nueva personaje, la Alchemist!
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

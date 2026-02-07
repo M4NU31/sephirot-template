@@ -19,6 +19,7 @@ jobs:
           password: M@nuel4503479
           server-dir: /
           local-dir: ./
+          dangerous-clean-slate: true
           exclude: |
             **/.git*
             **/.github/**
