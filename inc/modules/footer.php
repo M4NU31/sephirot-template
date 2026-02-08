@@ -8,7 +8,6 @@
         <div class="user-time">
             <strong>Tu hora local:</strong>
             <span id="clock-local">--:--:--</span>
-            <small id="tz" style="display:block; opacity:.7;"></small>
         </div>
     </div>
 </div>
