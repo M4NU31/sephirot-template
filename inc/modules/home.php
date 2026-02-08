@@ -12,7 +12,7 @@
                                 <div class="slider-content">
                                     <div class="heading-wrapper">
                                         <h5 class="heading-element">
-                                            Prueba a la nueva personaje, la Alchemist!
+                                            Lorem Ipsum
                                         </h5>
                                     </div>
                                 </div>
@@ -26,7 +26,7 @@
                                 <div class="slider-content">
                                     <div class="heading-wrapper">
                                         <h5 class="heading-element">
-                                            Prueba a la nueva personaje, la Alchemist!
+                                            Lorem Ipsum
                                         </h5>
                                     </div>
                                 </div>
