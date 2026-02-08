@@ -14,7 +14,7 @@
  * http://opensource.org/licenses/MIT
  */
  
- define('THEME_VER', '1.0.45');
+ define('THEME_VER', '1.0.46');
  define('__PATH_TEMPLATE_MODULES__', __PATH_TEMPLATE__ . 'inc/modules/');
 
 function templateBuildNavbar() {
