@@ -183,6 +183,7 @@ function templateTopLevelWidget($limit = 10) {
 						echo '<td class="text-center">'.getPlayerClass($row[1]).'</td>';
 						echo '<td class="text-center">'.number_format($row[2]).'</td>';
 						echo '<td class="text-center">'.number_format($row[3]).'</td>';
+						echo var_dump($row);
 					echo '</tr>';
 				}
 
