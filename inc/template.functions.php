@@ -169,21 +169,22 @@ function templateTopLevelWidget($limit = 10) {
 		echo '<div class="panel-body">';
 			echo '<table class="table table-condensed">';
 				echo '<thead><tr>';
+					echo '<th class="text-center"></th>'; // Empty
 					echo '<th class="text-center">'.lang('rankings_txt_10').'</th>'; // Character
 					echo '<th class="text-center">'.lang('rankings_txt_11').'</th>'; // Class
 					echo '<th class="text-center">'.lang('rankings_txt_12').'</th>'; // Level
-					echo '<th class="text-center">'.lang('rankings_txt_13').'</th>'; // Level
+					echo '<th class="text-center">'.lang('rankings_txt_13').'</th>'; // Reset
 				echo '</tr></thead>';
 				echo '<tbody>';
 
 				foreach($top as $k => $row) {
 					if($k == 0) continue;
 					echo '<tr>';
+						echo '<td class="text-center">'.$k.'</td>';
 						echo '<td class="text-center">'.playerProfile($row[0]).'</td>';
 						echo '<td class="text-center">'.getPlayerClass($row[1]).'</td>';
-						echo '<td class="text-center">'.number_format($row[2]).'</td>';
 						echo '<td class="text-center">'.number_format($row[3]).'</td>';
-						echo var_dump($row);
+						echo '<td class="text-center">'.number_format($row[2]).'</td>';
 					echo '</tr>';
 				}
 
