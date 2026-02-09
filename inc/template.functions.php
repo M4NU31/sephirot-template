@@ -172,6 +172,7 @@ function templateTopLevelWidget($limit = 10) {
 					echo '<th class="text-center">'.lang('rankings_txt_10').'</th>'; // Character
 					echo '<th class="text-center">'.lang('rankings_txt_11').'</th>'; // Class
 					echo '<th class="text-center">'.lang('rankings_txt_12').'</th>'; // Level
+					echo '<th class="text-center">'.lang('rankings_txt_13').'</th>'; // Level
 				echo '</tr></thead>';
 				echo '<tbody>';
 
@@ -181,6 +182,7 @@ function templateTopLevelWidget($limit = 10) {
 						echo '<td class="text-center">'.playerProfile($row[0]).'</td>';
 						echo '<td class="text-center">'.getPlayerClass($row[1]).'</td>';
 						echo '<td class="text-center">'.number_format($row[2]).'</td>';
+						echo '<td class="text-center">'.number_format($row[3]).'</td>';
 					echo '</tr>';
 				}
 
