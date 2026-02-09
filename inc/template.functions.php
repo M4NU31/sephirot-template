@@ -166,7 +166,7 @@ function templateTopLevelWidget($limit = 10) {
 		echo '<div class="panel-heading">';
 			echo '<h3 class="panel-title">'.lang('rankings_txt_1').'<a href="'.__BASE_URL__.'rankings/level" class="btn btn-primary btn-xs pull-right" style="text-align:center;width:22px;">+</a></h3>';
 		echo '</div>';
-		echo '<div class="panel-body" style="min-height:400px;">';
+		echo '<div class="panel-body">';
 			echo '<table class="table table-condensed">';
 				echo '<thead><tr>';
 					echo '<th class="text-center">'.lang('rankings_txt_10').'</th>'; // Character
@@ -200,7 +200,7 @@ function templateTopGuildsWidget($limit = 10) {
 		echo '<div class="panel-heading">';
 			echo '<h3 class="panel-title">'.lang('rankings_txt_4').'<a href="'.__BASE_URL__.'rankings/guilds" class="btn btn-primary btn-xs pull-right" style="text-align:center;width:22px;">+</a></h3>';
 		echo '</div>';
-		echo '<div class="panel-body" style="min-height:400px;">';
+		echo '<div class="panel-body">';
 			echo '<table class="table table-condensed">';
 				echo '<thead><tr>';
 					echo '<th class="text-center">'.lang('rankings_txt_17').'</th>'; // Guild Name

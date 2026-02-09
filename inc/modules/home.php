@@ -95,20 +95,24 @@
         </div>
     </div>
 </section>
-<section id="main-section-3" class="main-section alternate-color">
+<section id="main-section-3" class="main-section alternate-color section-ranking">
     <div class="container">
         <div class="content">
             <div class="content-inner">
-
-            </div>
-        </div>
-    </div>
-</section>
-<section id="main-section-4" class="main-section alternate-color">
-    <div class="container">
-        <div class="content">
-            <div class="content-inner">
-
+                <div class="columns-element">
+                    <div class="columns-element-inner">
+                        <div class="column column-ranking-reset">
+                            <div class="column-inner">
+                                <?php templateTopLevelWidget(10); ?>
+                            </div>
+                        </div>
+                        <div class="column column-ranking-guild">
+                            <div class="column-inner">
+                                <?php templateTopGuildsWidget(10); ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
