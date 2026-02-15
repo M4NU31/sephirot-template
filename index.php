@@ -51,6 +51,16 @@ if(!isset($_REQUEST['subpage'])) {
                 <?php require __PATH_TEMPLATE_ROOT__ . 'inc/modules/header.php'; ?>
             </header>
             <div id="main">
+                <div class="sparks-sparks">
+                    <div class="sparks sparks-1"></div>
+                    <div class="sparks sparks-2"></div>
+                    <div class="sparks sparks-3"></div>
+                </div>
+                <div class="smog">
+                    <div class="num1"></div>
+                    <div class="num2"></div>
+                    <div class="num3"></div>
+                </div>
                 <div class="main-inner">
                     <?php require __PATH_TEMPLATE_ROOT__ . 'inc/modules/body-menu.php'; ?>
                     <div class="sections-wrapper">
