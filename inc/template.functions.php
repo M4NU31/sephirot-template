@@ -14,7 +14,7 @@
  * http://opensource.org/licenses/MIT
  */
  
- define('THEME_VER', '1.0.60');
+ define('THEME_VER', '1.0.61');
  define('__PATH_TEMPLATE_MODULES__', __PATH_TEMPLATE__ . 'inc/modules/');
 
 function templateBuildNavbar() {
@@ -207,6 +207,7 @@ function templateTopGuildsWidget($limit = 10) {
 		echo '<div class="panel-body">';
 			echo '<table class="table table-condensed">';
 				echo '<thead><tr>';
+					echo '<th class="text-center"></th>'; // Empty
 					echo '<th class="text-center">'.lang('rankings_txt_17').'</th>'; // Guild Name
 					echo '<th class="text-center">'.lang('rankings_txt_28').'</th>'; // Logo
 					echo '<th class="text-center">'.lang('rankings_txt_19').'</th>'; // Score
@@ -217,6 +218,7 @@ function templateTopGuildsWidget($limit = 10) {
 					if($k == 0) continue;
 					$multiplier = ($rankingsConfig['guild_score_formula'] == 1 ? 1 : $rankingsConfig['guild_score_multiplier']);
 					echo '<tr>';
+						echo '<td class="text-center">'.$k.'</td>';
 						echo '<td class="text-center">'.guildProfile($row[0]).'</td>';
 						echo '<td class="text-center">'.returnGuildLogo($row[3], 20).'</td>';
 						echo '<td class="text-center">'.number_format(floor($row[2]*$multiplier)).'</td>';
