@@ -14,17 +14,18 @@
                             <?php echo checkServerStatus(); ?>
                         </div>
                     </div>
+                    <!--
                     <div class="block-content-block">
                         <div class="block-label">
                             Jugadores Online
                         </div>
                         <div class="block-content-inner">
-                            <?php echo number_format($onlinePlayers); ?>
+                            <?php //echo number_format($onlinePlayers); ?>
                         </div>
                         <div class="online-players-bar">
                             <div class="webengine-online-bar-progress" style="width:<?php echo $onlinePlayersPercent; ?>%;"></div>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>
