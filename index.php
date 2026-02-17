@@ -47,7 +47,7 @@ if(!isset($_REQUEST['subpage'])) {
     </head>
     <body>
         <div class="body-video">
-            <video  src="../video/video-bg.mp4" autoplay muted loop playsinline></video>
+            <video  src="<?php echo __PATH_TEMPLATE_VIDEO__; ?>video-bg.mp4" autoplay muted loop playsinline></video>
         </div>
         <div id="wrap_all">
             <header class="header">
