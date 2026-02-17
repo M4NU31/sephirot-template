@@ -46,6 +46,9 @@ if(!isset($_REQUEST['subpage'])) {
 		</script>
     </head>
     <body>
+        <div class="body-video">
+            <video  src="../video/video-bg.mp4" autoplay muted loop playsinline></video>
+        </div>
         <div id="wrap_all">
             <header class="header">
                 <?php require __PATH_TEMPLATE_ROOT__ . 'inc/modules/header.php'; ?>
